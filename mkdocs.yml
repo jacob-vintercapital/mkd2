@@ -1,0 +1,47 @@
+# content 
+nav:
+- Home: 'index.md' # todo try publishing without this one
+- Intro: 'texts/0intro.md'
+#- Home: 'texts/0intro.md'
+- Part I Why indexing: 'texts/1part1.md'
+- Part II Why cryptocurrencies: 'texts/2part2.md'
+- Part III Our product: 'texts/3part3.md'
+- Appendix: 'texts/4appendix.md'
+
+# config 
+site_name: 'Vinter Capital - Whitepaper'
+site_description: 'The first document to read for any stakeholder'
+theme:
+  name: 'material'
+  logo: 'figures/baseline-terrain-24px.svg'
+  language: 'en'
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Orange'
+  font: # https://fonts.google.com/?query=helvetica
+    text: 'Helvetica'
+    code: 'Helvetica Monospaced'
+  feature:
+    tabs: true
+
+# customization 
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/squidfunk'
+    - type: 'website'
+      link: 'https://vintercapital.com'
+
+
+# extension 
+markdown_extensions:
+    - toc:
+        permalink: True
+
+markdown_extensions:
+  - footnotes
+
