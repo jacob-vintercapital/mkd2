@@ -8,41 +8,111 @@ If you had to store all your savings in cash and put it under the mattress for 2
 accepted + SoV due to stable economy / central bank.
 -->
 
-## Blockchains are useful
 
-> Blockchain computers are new types of computers where the unique capability is trust between users, developers, and the platform itself. This trust emerges from the mathematical and game-theoretic properties of the system, without depending on the trustworthiness of individual network participants.
+
+## History of money or Evolution of money
+
+Throughout history we have used many forms of money: seashells, knifes, cows, alcohol, and large stones formed in the shape of doughnuts. They fall under the category of commodity money. All commodity money is easy to understand, and most of them function reasonably well as a unit of account. Some commodities are more money than others, thanks to their proporties such as weight, appearance, divisibility, and scarcity. Gold and solver coins was introduced in 600 BC, and later on many societies used coins that had been issued by their king.
+
+Paper money was used in China during the 11th century due to the physical hurdles with commodity money. Gold and silver merchants gave out reciepts which could redeemed for a certain amount of the commodity. This form of money fall under the category of representative money. The reciepts were in essence "I owe you" notes because it was the person who held the reciept who had the right to redeem it.
+Paper money came to Europe during the 13th century, and by the 18th century gold coins had been replaced by paper money backed by gold. This monetary system is referred to as the gold standard. The paper notes were backed by gold in the sense that they were convertible into a certain amount of gold. Currencies backed by gold are sometimes referred to as hard money because gold is a store of value. <!-- need this sentence to explain goldman ceo quote -->
+In the 20th century almost all countries used the gold standard and made these notes legal tender.
+
+After the second world war, most countries pegged their currency to the U.S. dollar. In turn, the dollar was pegged to a certain amount of gold. When Nixon abandoned the gold standard in 1971 USD was no longer backed by anything tangible. Countries responded by de-pegging their currency from the dollar, and adopted floating exchange rates which we have today.
+
+<!-- or: from the dollar, so the world entered the regime of floating exchange rates that we currently live in. -->
+
+<!-- source wiki bretton woods -->
+<!-- source videon https://www.youtube.com/watch?v=GNo7MDN5-0g
+> "After World War II and the Bretton Woods Conference, most countries adopted fiat currencies that were fixed to the U.S. dollar. The U.S. dollar was in turn fixed to gold. In 1971 the U.S. government suspended the convertibility of the U.S. dollar to gold. After this many countries de-pegged their currencies from the U.S. dollar, and most of the world's currencies became unbacked by anything".
+-->
+
+<!-- ((today we use commercial bank money. m1 is fiat notes m2 is credit from banks, so banks determine money supply also.)) -->
+
+Today we use paper money and take it for granted all firms price their goods in some fiat currencies like USD or EUR, but this has not always been the case throughout history. We invented money because it solves practical problems, and we have used different forms of money switching from less convinient solutions (e.g. large stonges and cows) to more convinient forms of money (e.g. coins, paper and digits on a screen). If cryptocurrency becomes more convinient than fiat currency why not use it?
+
+> If we went into the future and bitcoin was successful, I would be able to explain how it was a natural evolution from hard money.
 >
-> / Andreessen Horowitz, <https://a16zcrypto.com/>
+> / Lloyd Blankfein, CEO of Goldman Sachs, in a Bloomberg interview.
 
-Firstly, **trading increase our living standards**. The trading of goods predates both writing and money. We know this because money had to be invented for trade, and the first writings ever found were debt ledgers. When humans started trading goods with each other they agreed to do so because both parties were better off after the transaction, thus economic value was created. Both theorical and empirical evidence suggests that trade make us wealthier and increase our living standards substantially.
+<!--
+source goldman ceo
+https://www.youtube.com/watch?v=YIMWLOSRZ_A
+-->
 
-Secondly, **trust is needed for trade.** If two parties want to transact but do not trust each other, it will be hard to execute the trade. When the trust is too low, it will inhibit the trade.
-Larger transaction values require more trust.
-For a long distance transaction the seller might worry that the payment will not arrive, at the same time as the buyer is unsure of the item's durability. All forms of uncertanty is the enemy of trust.
 
-Thirdly, **we use trusted third parties today to facilitate trades**. Trust is built slowly over time. To prevent zero knowledge about the counterparty to inhibit a transaction we use trusted third parties like stock brokers and apartment brokers, whom are employed by large corporations with regonizable names and logotypes. Their role is to increase confidence in the transacting parties.
-((What these companies consist of is essentially trained people who perform manual checks. These tasks can be automated by computers so that the employee supervise what the computer is doing rather than having to perform the manual work herself.))
+<!-- ((trust govt vs trusting math.))
+((
+there are good reasons to believe some people will stop using their fiat money and move (in part or in whole) to use cryptocurrencies, because (a) we have changed it before (b) it is more convinient (digital, borderless, instant, etc.) (c) it is a better form of money in the sense that it ticks more boxes (see "proprties" and the fact many fiat currencies are shitty due to inflation arising from printing money ((and high gov spending)).).
+)) -->
 
-Fourthly, **a blockchain digitize trust**. It does so in part because the data cannot be tampered with, [^longest-chain] so that if something is in the blockchain it will stay there. Imagine what this does to uncertanty. The effect is huge. Instead of relying on a trusted third party, the transacting parties can rely on the blockchain. An intriguing question is: how much economic value can be unleashed via trading thanks to the increase in trust and efficiency that blockchain technology can bring?
 
-[^longest-chain]: To get a glimpse of undestanding why a blockchain cannot be tampered with, it is useful to revisit the bitcoin whitepaper: "The network timestamps transactions... forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power." todo maybe include some more text here, perhaps by leopold or eric w.
+## Definition of money
 
-<!-- todo maybe write more on this point. it is the one the reader knoew the least about -->
+Money had to be invented for trade. Before there was money, societies relied on gifts and barter -- both of which severly limits trade.
+Gifts limits a transaction's value and the counterparties we can trade with, since knowing the person or having a history of successful gift exchanges would be required for valuable trades to take place. Another drawback with gifts are that they rely on humans remembering the quality and amount of the good which was recieved -- a common source of conflicts.
+Barter limits the liquidity and frequence of trade, because if paying in-kind is the only option then both the buyer and the seller must be willing to buy and sell each other's goods simoultaneuously. This requires a coincidence of wants, which is unlikely. For example, what should the fisherman do when he has caught more than he is able to eat? Perhaps the fisherman need clothes, but if his village relies on barter then he must find a tailor today -- otherwise the extra fish will be worthless. The tailor may not be hungry. In this case the fisherman might be able to trade the fish for nuts, the nuts for beer, and the beer for clothes. Obviously the coincidence of wants introduces liquidity and accounting problems: will there be a path from fish to clothes via trading, and what are the appropriate exchange ratios for all goods? In an economy with 100 goods there are 4950 prices to keep track of. Another drawback with barter is that it is almost impossible for a musician to pay his rent.
 
-Given that
-(1) trading increase our living standards,
-(2) trust is needed for trade,
-(3) we use trusted third parties today to facilitate trades, and
-(4) a blockchain digitize trust,
-the invetable conclusion is that blockchains are useful.
+Money solves these problems. The invention of money allow us to trade more valuable goods at an increased frequency with more counterparties.
+Moreover, all goods can be priced in terms of only one other good so that there are not thousands of exchange rates to keep track of (money is a unit of account). And the musician can recieve money when he plays the piano at a bar (money is a medium of exchange). He can use this money later to pay his rent (money is a store of value). Money can be defined in terms of its functions as a a medium of exchange, store of value and unit of account. Anything that fulfills these properties can be used as money.
 
+A more direct way to define money is to say that it is any item (or verifiable record) that is generally accepted as payment for goods and services as well as repayment of debts.
+From this definition, whose keyword is "accepted", it is clear that money works **because** we believe in it. Consequently money works only **if** we believe in it.
+
+<!-- source wikipedia money -->
+
+## Properties of money
+
+Some things are more money than others. This is obvious from the defintion of money because some items (or some verifiable records) function better than others. Seashells cannot be used as money on a beach, and cows are worse than silver coins.
+Since money works because -- and if -- we believe in it, there are clearly some set of properties money should have. For something to function well as money, it should be:
+
+<!-- source http://money.visualcapitalist.com/infographic-the-properties-of-money/ -->
+
+- Scarce, so its value is upheld over time.
+- Durable, so it can be used multiple times.
+- Portable, so it can be carried around.
+- Divisible, so that small payments can be made.
+- Fungible and uniform (meaning that all units are interchangeable and have the same purchasing power) because otherwise parts of the money will taken out of circulation.
+- Easy to verify but difficult to fake, so that accepting it is easy but fooling others with fake money is difficult.
+
+Intrinsic value is not a property of money, rather, the lack thereof. A paper bill is not worth anything in and of itself. The value comes from the fact that humans agree to accept it as means of payment for valuable goods and services.
+
+
+## Properties of bitcoin
+
+Bitcoin is scarce, durable, portable, divisible, fungible, uniform, easy to verify and hard to fake.
+Gold and fiat, by contrast, only posess a few of these properties.
+
+|                  | Gold | Fiat | Bitcoin |
+|------------------|------|------|---------|
+| Scarce           | Yes  | No   | Yes     |
+| Durable          | Yes  | Yes  | Yes     |
+| Portable         | No   | Yes  | Yes     |
+| Divisible        | No   | Yes  | Yes     |
+
+Table: Some types of money are better than others.
+
+
+Gold is not portable due to its weight, and not divible without special equipment.
+Fiat currencies like USD and EUR need not be scarce because a central bank controls the money supply. History is filled with examples of hyperinflation due to hefty increases in the money supply.[^inflation-countries]
+Bitcoin is scarce because its money supply is currently fixed to 21 million BTC, and every BTC is divisble to 100 million pieces. Bitcoin is durable and portable since it is digital.
+
+
+
+
+<!--
+i skipped talking about these two. maybe add them maybe not. i skipped becuase i would simply say YES on all of them and that remove the focus.
+
+- Fungible and uniform (meaning that all units are interchangeable and have the same purchasing power) because otherwise parts of the money will taken out of circulation.
+- Easy to verify but difficult to fake, so that accepting it is easy but fooling others with fake money is difficult.
+-->
 
 ## Internet of value or A global network of value transfers
 
 ((The internet have disrupted many industries (e.g. media). Cryptocurrencies can disrupt many industries (e.g. finance).))
 
 What the internet did to transfering information, cryptocurrencies might do to transfering value.
-This is a bold claim, so let us compare the internet with cryptocurrencies by comparing email with bitcoin.
+This is a bold claim, so let us compare the internet with cryptocurrencies by comparing email with bitcoin.below.
 
 Sending messages via email (bitcoin) was the first real application of the internet (cryptocurrencies).
 If Alice wants to send an email message (bitcoin payment) to Bob, she must know his public address.
@@ -74,102 +144,46 @@ Before email (bitcoin) there was different networks depending on what type of in
 | Can use w/o understanding it | Yes | Yes |
 | VC money invested | A lot | A lot |
 
-Table: Internet and cryptocurrencies share some similiarities.
+Table: Internet and cryptocurrencies share some similiarities. \label{tab:email-bitcoin}
 
 
 
 [comment]: "the main goal of the upcoming sections  is to establish there is nothing magical about fiat. we have had other forms of money. start with a history of money and then describe its properties."
 
 
-## Definition of money
 
-Money had to be invented for trade. Before there was money, societies relied on gifts and barter -- both of which severly limits trade.
-Gifts limits a transaction's value and the counterparties we can trade with, since knowing the person or having a history of successful gift exchanges would be required for valuable trades to take place. Another drawback with gifts are that they rely on humans remembering the quality and amount of the good which was recieved -- a common source of conflicts.
-Barter limits the liquidity and frequence of trade, because if paying in-kind is the only option then both the buyer and the seller must be willing to buy and sell each other's goods simoultaneuously. This requires a coincidence of wants, which is unlikely. For example, what should the fisherman do when he has caught more than he is able to eat? Perhaps the fisherman need clothes, but if his village relies on barter then he must find a tailor today -- otherwise the extra fish will be worthless. The tailor may not be hungry. In this case the fisherman might be able to trade the fish for nuts, the nuts for beer, and the beer for clothes. Obviously the coincidence of wants introduces liquidity and accounting problems: will there be a path from fish to clothes via trading, and what are the appropriate exchange ratios for all goods? In an economy with 100 goods there are 4950 prices to keep track of. Another drawback with barter is that it is almost impossible for a musician to pay his rent.
+## Blockchains are useful
 
-Money solves these problems. All goods can be priced in terms of only one other good so that there are not thousands of exchange rates to keep track of (money is a unit of account). And the musician can recieve money when he plays the piano at a bar (money is a medium of exchange). He can use this money later to pay his rent (money is a store of value). Money can be defined in terms of its functions as a a medium of exchange, store of value and unit of account. Anything that fulfills these properties can be used as money.
-
-A more direct way to define money is to say that it is any item (or verifiable record) that is generally accepted as payment for goods and services as well as repayment of debts.
-From this definition, whose keyword is "accepted", it is clear that money works **because** we believe in it. Consequently money works only **if** we believe in it.
-
-<!-- source wikipedia money -->
-
-## Properties of money
-
-Some things are more money than others. This is obvious from the defintion of money because some items (or some verifiable records) function better than others. Seashells cannot be used as money on a beach, and cows are worse than silver coins.
-Since money works because (and if) we believe in it, we clearly have some set of properties money should have. For something to function well as money, it should be:
-
-<!-- source http://money.visualcapitalist.com/infographic-the-properties-of-money/ -->
-
-- Scarce, so its value is upheld over time.
-- Durable, so it can be used multiple times.
-- Portable, so it can be carried around.
-- Divisible, so that small payments can be made.
-- Fungible and uniform (meaning that all units are interchangeable and have the same purchasing power) because otherwise parts of the money will taken out of circulation.
-- Easy to verify but difficult to fake, so that accepting it is easy but fooling others with fake money is difficult.
-
-Intrinsic value is not a property of money, rather, the lack thereof. A paper bill is not worth anything in and of itself. The value comes from the fact that humans agree to accept it as means of payment for valuable goods and services.
-
-## History of money or Evolution of money
-
-Throughout history we have used many forms of money: seashells, knifes, cows, alcohol, and large stones formed in the shape of doughnuts. They fall under the category of commodity money. All commodity money is easy to understand, and most of them function reasonably well as a unit of account. Some commodities are more money than others, thanks to their proporties such as weight, appearance, divisibility, and scarcity. Gold and solver coins was introduced in 600 BC, and later on many societies used coins that had been issued by their king.
-
-Paper money was used in China during the 11th century due to the physical hurdles with commodity money. Gold and silver merchants gave out reciepts which could redeemed for a certain amount of the commodity. This form of money fall under the category of representative money. The reciepts were in essence IOUs because it was the person who held the reciept who had the right to redeem it.
-Paper money came to Europe during the 13th century, and by the 18th century gold coins had been replaced by paper money backed by gold. This monetary system is referred to as the gold standard. The paper notes were backed by gold in the sense that they were convertible into a certain amount of gold. Currencies backed by gold are sometimes referred to as hard money because gold is a store of value. <!-- need this sentence to explain goldman ceo quote -->
-In the 20th century almost all countries used the gold standard and made these notes legal tender.
-
-After the second world war, most countries pegged their currency to the U.S. dollar. In turn, the dollar was pegged to a certain amount of gold. When Nixon abandoned the gold standard in 1971 USD was no longer backed by anything tangible. Countries responded by de-pegging their currency from the dollar and adopted floating exchange rates.
-
-<!-- source wiki bretton woods -->
-<!-- source videon https://www.youtube.com/watch?v=GNo7MDN5-0g
-> "After World War II and the Bretton Woods Conference, most countries adopted fiat currencies that were fixed to the U.S. dollar. The U.S. dollar was in turn fixed to gold. In 1971 the U.S. government suspended the convertibility of the U.S. dollar to gold. After this many countries de-pegged their currencies from the U.S. dollar, and most of the world's currencies became unbacked by anything".
--->
-
-<!-- ((today we use commercial bank money. m1 is fiat notes m2 is credit from banks, so banks determine money supply also.)) -->
-
-Today we use paper money and take it for granted all firms price their goods in some fiat currency such as USD or EUR, but this has not always been the case throughout history. We invented money because it solves practical problems, and we have used different forms of money switching from less convinient solutions (e.g. large stonges and cows) to more convinient forms of money (e.g. coins, paper and digits on a screen). If cryptocurrency becomes more convinient than fiat currency, why not switch again?
-
-> If we went into the future and bitcoin was successful, I would be able to explain how it was a natural evolution from hard money.
+> Blockchain computers are new types of computers where the unique capability is trust between users, developers, and the platform itself. This trust emerges from the mathematical and game-theoretic properties of the system, without depending on the trustworthiness of individual network participants.
 >
-> / Lloyd Blankfein, CEO of Goldman Sachs, in a Bloomberg interview.
+> / Andreessen Horowitz, <https://a16zcrypto.com/>
 
-<!--
-source goldman ceo
-https://www.youtube.com/watch?v=YIMWLOSRZ_A
--->
+Firstly, **trading increase our living standards**. The trading of goods predates both writing and money. We know this because money had to be invented for trade, and the first writings ever found were debt ledgers. When humans started trading goods with each other they agreed to do so because both parties were better off after the transaction, thus economic value was created. Both theorical and empirical evidence suggests that trade make us wealthier and increase our living standards substantially.
+
+Secondly, **trust is needed for trade.** If two parties want to transact but do not trust each other, it will be hard to execute the trade. When the trust is too low, it will inhibit the trade.
+Larger transaction values require more trust.
+For a long distance transaction the seller might worry that the payment will not arrive, at the same time as the buyer is unsure of the item's durability. All forms of uncertanty is the enemy of trust.
+
+Thirdly, **we use trusted third parties today to facilitate trades**. Trust is built slowly over time. To prevent zero knowledge about the counterparty to inhibit a transaction we use trusted third parties like stock brokers and apartment brokers, whom are employed by large corporations with regonizable names and logotypes. Their role is to increase confidence in the transacting parties.
+((What these companies consist of is essentially trained people who perform manual checks. These tasks can be automated by computers so that the employee supervise what the computer is doing rather than having to perform the manual work herself.))
+
+Fourthly, **a blockchain digitize trust**. It does so in part because the data cannot be tampered with, [^longest-chain] so that if something is in the blockchain it will stay there. Imagine what this does to uncertanty. Blockchains are a cheap way to instull trust. Instead of relying on a trusted third party, the transacting parties can rely on the blockchain. This digitization reduces transaction costs and enables trade. An intriguing question is: how much economic value can be unleashed via trading thanks to the increase in trust and efficiency that blockchain technology can bring?
+
+[^longest-chain]: To get a glimpse of undestanding why a blockchain cannot be tampered with, it is useful to revisit the bitcoin whitepaper: "The network timestamps transactions... forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power." todo maybe include some more text here, perhaps by leopold or eric w.
+
+<!-- todo maybe write more on this point. it is the one the reader knoew the least about -->
+
+Given that
+(1) trading increase our living standards,
+(2) trust is needed for trade,
+(3) we use trusted third parties today to facilitate trades, and
+(4) a blockchain digitize trust,
+the invetable conclusion is that blockchains are useful.
 
 
 
-<!-- ((trust govt vs trusting math.))
 
-((
-there are good reasons to believe some people will stop using their fiat money and move (in part or in whole) to use cryptocurrencies, because (a) we have changed it before (b) it is more convinient (digital, borderless, instant, etc.) (c) it is a better form of money in the sense that it ticks more boxes (see "proprties" and the fact many fiat currencies are shitty due to inflation arising from printing money ((and high gov spending)).).
-))
 
--->
-
-## Properties of bitcoin
-
-In the section [Properties of money] we listed the following characterics:
-Scarce, durable, portable, divisible, fungible, uniform, easy to verify, hard to fake. Bitcoin has all these properties, whereas gold and fiat only posess a few.
-
-|                  | Gold | Fiat | Bitcoin |
-|------------------|------|------|---------|
-| Scarce           | Yes  | No   | Yes     |
-| Durable          | Yes  | Yes  | Yes     |
-| Portable         | No   | Yes  | Yes     |
-| Divisible        | No   | Yes  | Yes     |
-
-Table: Some types of money are better than others.
-
-Gold is not portable due to its weight, and not divible without special equipment.
-Fiat is not scarce because the central bank control the money supply. History is filled with examples of hyperinflation due to hefty increases in the money supply.[^inflation-countries]
-Bitcoin is scarce because its money supply is fixed to 21 million BTC, and every BTC is divisble to 100 million pieces. Bitcoin is durable and portable since it is digital.
-
-<< todo i skipped talking about these two. maybe add them maybe not
-
-- Fungible and uniform (meaning that all units are interchangeable and have the same purchasing power) because otherwise parts of the money will taken out of circulation.
-- Easy to verify but difficult to fake, so that accepting it is easy but fooling others with fake money is difficult.
 
 
 [^inflation-countries]: Rome,  Austria,  China,  France, Germany, Greece, Hungary, North Korea, Peru, Poland, Philippines,  British Malaya,  Soviet Union,  Venezuela Yugoslavia and Zimbabwe. Source <https://en.wikipedia.org/wiki/Hyperinflation>
@@ -213,9 +227,11 @@ Thus there is an equilibrium where there are several blockchains trying to serve
 >
 > / A. Antonopoulos The internet of money, vol 2, chapter 10 "The lion and the shark".
 
-<!-- ### winners -->
 
-Even though there are thousands of cryptocurrencies of which hundreds are actively traded on exchanges, most people who have bought cryptocurrency only hold 1-3 different ones. By contrast, an investor rarely hold only 1-3 equities, although they did before Markovitz introduced portfolio theory. As the crypto market matures, people will probably hold a diversified basket of cryptocurrencies. This will be especially true for investors who primarily seek  attractive risk-adjusted returns and does not identify with a particular coin or care to be a part of its community.
+## Cryptocurrency as an investment
+
+
+Even though there are thousands of cryptocurrencies of which hundreds are actively traded on exchanges, most people who have bought cryptocurrency only hold 1-3 different ones. By contrast, an investor rarely hold only 1-3 equities, although they did before Markowitz introduced portfolio theory. As the crypto market matures, people will probably hold a diversified basket of cryptocurrencies. This will be especially true for investors who primarily seek  attractive risk-adjusted returns and does not identify with a particular coin or care to be a part of its community.
 
 Market forces will decide which blockcain projects are important and which are not. Competition will wash out the bad cryptocurrencies and reward projects with a compelling vision, competent team, dedicated community, functioning applications. In the end, the best cryptocurrencies will win.
 
@@ -223,7 +239,8 @@ At Vinter Capital, we do not know who the winners will be. Nor do we do pretend 
 ((For further details about why indexing makes sense for financial assets in general and cryptocurrencies in particular, as well as evidence that beating the market is an unprofitable strategy, see part I.))
 <!-- Although markets are not percetly efficient, they are efficient enough that trying to beat the market by picking stocks or engaging in advanced trading strategies is doomed to fail. For almost all investors it is better to be a passive investor and enjoy the returns of the entire market. -->
 
-## Including cryptocurrency to a traditional portfolio
+
+
 
 When considering whether or not to invest in an asset, an investor should study the asset not in isolation but rather as a part of the entire portfolio. It does not make sense to exclude Twitter from an equity portfolio simply because the stock is too risky. Instead, we should compare the portfolio with and without Twitter. After comparing the two portfolios' characterics such as sector allocation and risk-return profiles, then and only then the investor can make a proper judgement of whether to include Twitter or not in his portoflio. This was one of the major ways in which portoflio theory changed finance.
 
@@ -250,7 +267,7 @@ Table: Including cryptocurrencies to a traditional portfolio increase the risk-a
 [^other-measures]: The sharpe ratio is a common measure for risk-adjusted returns, probably the most common one partly due to its simplicity. Other measures are inormation ratio, sortino ratio and value at risk. Numerical results of these calculations can be found in the Appendix, but are omitted here since they point to the same conclusion as the sharpe ratio does.
 
 Let us be crystal clear in our analysis of why adding virtual currencies to a traditional portfolio should make the portfolio more attractive.
-Figure \ref{fig:markovitz-2} is an extended version of the  the traditional "efficient frontier graph" from part I. In this figure, cryptocurrencies are marked as blue triangles and traditional financal assets are marked as purple squares. Two efficient frontiers are drawn: the solid purple line represents the set of portoflios investos can have if she only invest in traditional assets, and the dashed blue line represents the set of portoflios an investor can enjoy if she invests in both traditional assets and cryptocurrencies.
+Figure \ref{fig:Markowitz-2} is an extended version of the  the traditional "efficient frontier graph" from part I. In this figure, cryptocurrencies are marked as blue triangles and traditional financal assets are marked as purple squares. Two efficient frontiers are drawn: the solid purple line represents the set of portoflios investos can have if she only invest in traditional assets, and the dashed blue line represents the set of portoflios an investor can enjoy if she invests in both traditional assets and cryptocurrencies.
 Thanks the statistical properties of these assets -- namely their returns, volatility and correlation structure -- the efficient frontier expands to the left when including cryptocurrencies.
 ((Again, the ideal place to be in the upper left corner, implying that investors who include cryptocurrencies in their portoflio can enojoy higher risk-adjusted returns.))
 ((The result is a logical result since adding choices always leaves an investor better off.))
@@ -259,6 +276,9 @@ Thanks the statistical properties of these assets -- namely their returns, volat
 
 For an even deeper explanation/understanding than the efficient frontier graph, consider @fig:eff-front-advanced.
 Correlation is the driver of diversification. When the correlation between the assets are lowered, the portfolio's volatility is lowered too.[^volatility-formula] Thanks to the low correlation betwen cryptocurrencies and traditional financial assets (observed in @fig:cor-trad-crypto) there is a diversificaiton effect of adding cryptocurrencies to a portfolio.
+
+((It is possible to argue that cryptocurrencies is a new asset class. Their statistical properties and fundamental value drivers are different from traditional asset classes like equities, fixed income and commodities. The crypto asset class is young. The market is nascent. The technology is in its infancy. The adoption is low. todo maybe write something bullish maybe not.))
+
 
 [^volatility-formula]: By denoting the weights of all assets in a portoflio with $\vec{w}$ the volatility of that portfolio is $$\sigma = \sqrt{ \vec{w^T} \mathbf{\Sigma} \vec{w} }$$ so when the correlations betweens assets are lowered (implying lower numbers in the $\mathbf{\Sigma}$ matrix) then $\sigma$ is lowered too.
 
