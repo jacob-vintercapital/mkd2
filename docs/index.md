@@ -1,7 +1,5 @@
 # Welcome to MkDocs
 
-$$1^3 + 4e$$
-
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 * `mkdocs new [dir-name]` - Create a new project.

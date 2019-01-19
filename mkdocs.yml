@@ -1,6 +1,6 @@
 # content 
 nav:
-- Home: 'index.md' # todo try publishing without this one
+#- Home: 'index.md' # todo try publishing without this one
 - Intro: 'texts/0intro.md'
 #- Home: 'texts/0intro.md'
 - Part I Why indexing: 'texts/1part1.md'
@@ -13,7 +13,9 @@ site_name: 'Vinter Capital - Whitepaper'
 site_description: 'The first document to read for any stakeholder'
 theme:
   name: 'material'
-  logo: 'figures/baseline-terrain-24px.svg'
+  favicon: 'figures/baseline-terrain-24px.svg'
+  logo:
+    icon: 'terrain'
   language: 'en'
   palette:
     primary: 'Blue Grey'
