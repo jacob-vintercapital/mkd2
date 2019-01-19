@@ -1,8 +1,8 @@
 # content 
 nav:
 #- Home: 'index.md' # todo try publishing without this one
+- Home: 'index.md'
 - Intro: 'texts/0intro.md'
-#- Home: 'texts/0intro.md'
 - Part I Why indexing: 'texts/1part1.md'
 - Part II Why cryptocurrencies: 'texts/2part2.md'
 - Part III Our product: 'texts/3part3.md'
